@@ -41,3 +41,41 @@ body {
 .hidden {
   display: none;
 }
+
+.message-window {
+  text-align: center;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid;
+  padding: 150px 120px;
+  background-color: rgba(119, 115, 115, 0.1);
+  border-radius: 10px;
+  border-color: rgba(63, 219, 89, 0.3);
+  color: white;
+  font-size: 22px;
+}
+
+#text-one {
+  margin: 10px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#text-two {
+  margin: 10px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#text-three {
+  margin: 10px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+li {
+  color: rgb(63, 219, 89);
+}
