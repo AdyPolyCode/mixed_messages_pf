@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Mixed Messages</title>
+    <link rel="shortcut icon" href="./icon.ico" />
   </head>
 
   <body>
@@ -19,7 +20,14 @@
       </div>
     </div>
 
-    <script src="main.js"></script>
-    <script src="script.js"></script>
+    <div class="message-window hidden">
+      <ol>
+        <li><p id="text-one"></p></li>
+        <li><p id="text-two"></p></li>
+        <li><p id="text-three"></p></li>
+      </ol>
+    </div>
+
+    <script type="module" src="script.js"></script>
   </body>
 </html>
